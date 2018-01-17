@@ -10,6 +10,7 @@ public:
 	int wholeVal;       /* whole part */
 	int fractValue;     /* fractional part */
 	std::string fractionalname; /* name of currency fractional part */
+	int partsPerwhole;
 };
 
 #endif

@@ -5,7 +5,7 @@ class Yuan : public Currency {
 private:
 	bool RupeeCreated = false;
 public:
-	Yuan();
+	Yuan(int initWhole, int initFractional);
 	~Yuan();
 	void setUp();
 };

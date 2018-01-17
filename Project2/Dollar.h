@@ -5,7 +5,7 @@ class Dollar : public Currency {
 private:
 	bool DollarCreated = false;
 public:
-	Dollar();
+	Dollar(int initWhole, int initFractional);
 	~Dollar();
 	void setUp();
 };
