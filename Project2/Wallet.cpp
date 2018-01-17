@@ -21,10 +21,10 @@ Test whether or not the object exists
 #include <string>
 
 //Constructor for Wallet class
-Wallet::Wallet(const int CURRENCY_MAX)
+Wallet::Wallet(const int MAX)
 {
 	currencyNum = 0; //Number of Currencies in the array
-	currencyMax = CURRENCY_MAX;
+	currencyMax = MAX;
 	currencyObjs = new Currency*[currencyMax];
 }
 
