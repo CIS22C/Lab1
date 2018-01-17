@@ -1,3 +1,6 @@
+#include <string>
+#include <iostream>
+
 #ifndef CURRENCY_H
 #define CURRENCY_H
 
