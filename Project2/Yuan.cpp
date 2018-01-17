@@ -2,7 +2,7 @@
 #include "Yuan.h"
 Yuan::Yuan(int initWhole, int initFractional)
 {
-
+	setUp();
 }
 Yuan::~Yuan()
 {

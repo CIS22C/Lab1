@@ -9,7 +9,7 @@ void Rupee::setUp()
 }
 Rupee::Rupee(int initWhole, int initFractional)
 {
-
+	setUp();
 }
 Rupee::~Rupee()
 {

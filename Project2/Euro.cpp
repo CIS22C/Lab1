@@ -2,7 +2,7 @@
 #include "Euro.h"
 Euro::Euro(int initWhole, int initFractional)
 {
-
+	setUp();
 }
 Euro::~Euro()
 {

@@ -2,7 +2,7 @@
 #include "Yen.h"
 Yen::Yen(int initWhole, int initFractional)
 {
-
+	setUp();
 }
 Yen::~Yen()
 {

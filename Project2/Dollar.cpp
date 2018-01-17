@@ -2,9 +2,9 @@
 #include "Dollar.h"
 Dollar::Dollar(int initWhole, int initFractional)
 {
-
+	setUp();
 }
-~Dollar::Dollar()
+Dollar::~Dollar()
 {
 
 }
