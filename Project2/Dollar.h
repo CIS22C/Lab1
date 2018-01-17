@@ -7,6 +7,7 @@ private:
 public:
 	Dollar();
 	~Dollar();
+	void setUp();
 };
 
 #endif
